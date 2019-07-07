@@ -198,7 +198,7 @@ class Server {
 
 		Player newPlayer = new Player(cfg.nickname, randomPoint(mapSize, mapSize), playerId, cfg.socketId);
 		players[playerId] = newPlayer;
-
+///maybe special nickname could be your favorite something, and start with all spells. -Nathaniel
 		resizeMap();
 		return playerId;
 	}
